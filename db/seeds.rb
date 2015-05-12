@@ -44,3 +44,22 @@ shoes = Shoe.create([
   { name: 'Touchdown8', brand:'Easton', cost:100, color:"red-yellow" },
   { name: 'Touchdown9', brand:'Easton', cost:120, color:"green-yellow" }
   ])
+
+stores = Store.create([
+  { name: 'Claudes Cabana', address:'123 N. Shore Blvd', city:"Los Angeles", state:"CA", zipcode: 90013},
+  { name: 'Jeryls Jungle', address:'9845 Greens Ave', city:"Beverly Hills", state:"CA", zipcode: 90210 },
+  { name: 'Jens Jam', address:'1450 Halloway', city:"Compton", state:"CA", zipcode:90030},
+  { name: 'Claudes Country Inn', address:'129 Deer Dr', city:"Marina Del Rey", state:"CA", zipcode:90233},
+  { name: 'Jeryls Joint', address:'877 Yankee Drive', city:"Venice", state:"CA", zipcode:90023},
+  { name: 'Claudes Camp', address:'344 Tom Blvd', city:"Beverly Hills", state:"CA", zipcode:90043 },
+  { name: 'Claudes Shoe Warehouse', address:'420 Smokey Ave', city:"Topanga Canyon", state:"CA", zipcode:90001 },
+  { name: 'Jens Junction', address:'150 Peace Circle', city:"Venice", state:"CA", zipcode:90001},
+  { name: 'Jeryls Gym Warehouse', address:'005 Nowhere St', city:"Compton", state:"CA", zipcode:90021 },
+  { name: 'Claudes Corner', address:'433 City Drive', city:"Los Angeles", state:"CA", zipcode:90098 },
+  { name: 'Jens Sports Chalet', address:'900 Red Ave', city:"Yosemite", state:"CA", zipcode:90034},
+  { name: 'Jeryls Soccer Warehouse', address:'444 Blue Drive', city:"San Diego", state:"CA", zipcode:91123 },
+  { name: 'Claudes Climbing Center', address:'222 Green Ave', city:"Shasta", state:"CA", zipcode:90061 },
+  { name: 'Jens Boot Stop', address:'3222 Red Ave', city:"Bakersfield", state:"CA", zipcode:90012},
+  { name: 'Jeryls Sandal Warehouse', address:'600 Tata Circle', city:"Fresno", state:"CA", zipcode:90241},
+  { name: 'Claudes Blacktie Stop', address:'899 GA Drive', city:"San Jose", state:"CA", zipcode:90065 },
+   ])
